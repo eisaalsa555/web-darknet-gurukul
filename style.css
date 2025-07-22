@@ -1,0 +1,35 @@
+body {
+    background-color: #0f0f0f;
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ffcc;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #00ffcc;
+    background: transparent;
+    color: white;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    cursor: pointer;
+}

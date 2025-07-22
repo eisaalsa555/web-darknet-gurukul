@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Darknet Gurukul - Dashboard</title>
+    <style>
+        body {
+            background-color: #000;
+            color: cyan;
+            font-family: Arial;
+            padding: 20px;
+        }
+        h1 {
+            color: white;
+        }
+        section {
+            background: #111;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px cyan;
+        }
+        label, input {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Darknet Gurukul, {{ username }}</h1>
+
+    <section>
+        <h2>Add Student</h2>
+        <form>
+            <label>Student Name:</label>
+            <input type="text" placeholder="Enter name">
+            <label>Course:</label>
+            <input type="text" placeholder="Enter course">
+            <button>Add Student</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Survey Team</h2>
+        <ul>
+            <li>Survey Team 1</li>
+            <li>Survey Team 2</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Staff List</h2>
+        <ul>
+            <li>Staff A</li>
+            <li>Staff B</li>
+        </ul>
+    </section>
+</body>
+</html>
